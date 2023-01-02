@@ -1,5 +1,6 @@
 import Home from './Home'
 import Navbar from './Navbar'
+import Services from './Services'
 
 export default function Main() {
   return (
@@ -7,6 +8,7 @@ export default function Main() {
         <div>
             <Navbar />
             <Home />
+            <Services />
         </div>
     </>
   )
