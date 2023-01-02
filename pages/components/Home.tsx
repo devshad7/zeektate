@@ -9,7 +9,7 @@ const Home = () => {
           <h1>
             Hey There,
             <br />
-            I'm Zeek
+            I&apos;m Zeek
           </h1>
           <div className={style.con}>
           <Link href="mailto:zeek@gmail.com">
