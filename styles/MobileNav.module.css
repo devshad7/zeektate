@@ -1,0 +1,40 @@
+.main {
+    display: none;
+}
+
+/* Media Queries for small devices */
+
+@media screen and (max-width: 600px) {
+    .main {
+        display: block;
+        display: flex;
+        padding: 1rem 2rem;
+        justify-content: space-between;
+        align-items: center;
+        background: #f8f8f1;
+      }
+      
+      .main .logo img {
+        width: auto;
+        height: 1.5rem;
+      }
+
+      .main .menu {
+        height: 45px;
+        width: 45px;
+        background: #fff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        cursor: pointer;
+      }
+
+       .divider {
+        width: 85%;
+        height: 1px;
+        margin: auto;
+        background: rgba(204, 204, 204, 0.712);
+      }
+}

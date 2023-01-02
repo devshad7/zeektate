@@ -42,9 +42,26 @@
     height: 33rem;
 }
 
-@media screen and (min-width: 1536px) {
+/* Media Queries for small devices */
+
+@media screen and (max-width: 600px) {
     .main {
-        max-width: 1280px;
-        margin: auto;
+        padding: 3rem 2rem 0rem 2rem;
+        flex-direction: column;
     }
-}
+
+    .main .leftContent h1 {
+        font-size: 3.5rem;
+        font-weight: 600;
+    }
+
+    .main .leftContent .con, .main .leftContent .exp {
+        display: none;
+    }
+
+    .main img {
+        margin: 6rem 0rem 0rem -.5rem;
+        width: auto;
+        height: 27rem;
+    }
+  }
