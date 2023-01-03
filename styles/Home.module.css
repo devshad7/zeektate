@@ -42,6 +42,19 @@
     height: 33rem;
 }
 
+.main .rightContent {
+    position: absolute;
+    right: -7rem;
+    color: rgb(51, 50, 50); 
+}
+
+.main .rightContent p {
+    width: 55%;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-top: 4rem;
+}
+
 /* Media Queries for small devices */
 
 @media screen and (max-width: 600px) {
@@ -60,8 +73,25 @@
     }
 
     .main img {
-        margin: 6rem 0rem 0rem -.5rem;
+        margin: 3rem 0rem 0rem -.5rem;
         width: auto;
         height: 27rem;
+    }
+
+    .main .both {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .main .rightContent {
+        position: relative;
+        right: 0rem;
+    }
+
+    .main .rightContent p {
+        width: 80%;
+        font-weight: 400;
+        line-height: 1.5;
+        margin-top: 1rem;
     }
   }

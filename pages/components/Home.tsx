@@ -21,7 +21,12 @@ const Home = () => {
             <p>Year<br />Experience</p>
           </div>
         </div>
+        <div className={style.both}>
         <img src="./assets/admin.png" alt="" />
+        <div className={style.rightContent}>
+          <p>I design beautifully simple things, And I love what I do</p>
+        </div>
+        </div>
       </div>
     </>
   );
