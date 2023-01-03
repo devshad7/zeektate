@@ -12,7 +12,7 @@ const MobileNav = () => {
           </Link>
         </div>
         <div className={style.menu}>
-          <MenuIcon sx={{ fontSize: "28px" }} />
+          <MenuIcon sx={{ fontSize: "28px" }} className={style.icon} />
         </div>
       </div>
       <div className={style.divider}></div>

@@ -1,40 +1,105 @@
 .main {
-    display: none;
+  display: none;
 }
 
 /* Media Queries for small devices */
 
 @media screen and (max-width: 600px) {
-    .main {
-        display: block;
-        display: flex;
-        padding: 1rem 2rem;
-        justify-content: space-between;
-        align-items: center;
-        background: #f8f8f1;
-      }
-      
-      .main .logo img {
-        width: auto;
-        height: 1.5rem;
-      }
+  .main {
+    display: block;
+    display: flex;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+    background: #f8f8f1;
+  }
 
-      .main .menu {
-        height: 45px;
-        width: 45px;
-        background: #fff;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-        cursor: pointer;
-      }
+  .main .logo img {
+    width: auto;
+    height: 1.5rem;
+  }
 
-       .divider {
-        width: 85%;
-        height: 1px;
-        margin: auto;
-        background: rgba(204, 204, 204, 0.712);
-      }
+  .main .menu {
+    height: 45px;
+    width: 45px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    cursor: pointer;
+  }
+
+  .divider {
+    width: 85%;
+    height: 1px;
+    margin: auto;
+    background: rgba(204, 204, 204, 0.712);
+  }
+}
+
+/* Media Queries for small devices */
+
+@media screen and (max-width: 1024px) {
+  .main {
+    display: block;
+    display: flex;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+    background: #f8f8f1;
+  }
+
+  .main .logo img {
+    width: auto;
+    height: 1.5rem;
+  }
+
+  .main .menu {
+    height: 45px;
+    width: 45px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    cursor: pointer;
+  }
+
+  .divider {
+    width: 85%;
+    height: 1px;
+    margin: auto;
+    background: rgba(204, 204, 204, 0.712);
+  }
+}
+
+/* Media Queries for medium devices */
+
+@media screen and ((min-width: 600px) and (max-width: 1024px)) {
+  .main {
+    padding: 1.5rem 4rem;
+  }
+
+  .main .logo img {
+    height: 2.3rem;
+  }
+
+  .main .menu {
+    height: 70px;
+    width: 70px;
+  }
+
+  .main .menu .icon {
+    font-size: 40px;
+  }
+
+  .divider {
+    width: 85%;
+    height: 1px;
+    margin: auto;
+    background: rgba(204, 204, 204, 0.712);
+  }
 }

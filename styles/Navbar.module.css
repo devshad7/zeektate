@@ -55,3 +55,11 @@
     display: none;
   }
 }
+
+/* Media Queries for medium devices */
+
+@media screen and (max-width: 1024px) {
+  .main {
+      display: none;
+    }
+}
