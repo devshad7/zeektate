@@ -91,8 +91,57 @@
 
 /* Media Queries for medium devices */
 
-@media screen and (max-width: 1024px) {
+@media screen and ((min-width: 600px) and (max-width: 1024px)) {
   .main {
-    display: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    padding: 4rem 4rem 3rem 4rem;
+  }
+
+  .main .rightSide {
+    margin-left: 0rem;
+  }
+
+  .main .rightSide h1 {
+    font-size: 4.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .main .rightSide p {
+    line-height: 2;
+    font-size: 2rem;
+    padding: 0rem 0rem 1rem 0rem;
+  }
+
+  .main .rightSide .client {
+    padding-bottom: 2rem;
+  }
+
+  .main .leftSide {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .main .leftSide .mainDiv span {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  
+  .main .leftSide .icon {
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+  
+  .main .leftSide .icon img {
+    width: auto;
+    height: 1.5rem;
+  }
+
+  .main .rightSide .client span {
+    font-weight: 500;
   }
 }
