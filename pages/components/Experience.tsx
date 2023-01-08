@@ -10,7 +10,7 @@ import TimelineOppositeContent, {
 } from "@mui/lab/TimelineOppositeContent";
 import { styled, ThemeProvider, Typography } from "@mui/material";
 import { green } from "@mui/material/colors";
-import { theme } from "./style";
+import theme from "./style";
 
 const Responsive = styled("div")(({ theme }) => ({
   [theme.breakpoints.up("xs")]: {},
