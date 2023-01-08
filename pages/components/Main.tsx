@@ -1,3 +1,4 @@
+import Experience from './Experience'
 import Home from './Home'
 import MobileNav from './MobileNav'
 import Navbar from './Navbar'
@@ -11,6 +12,7 @@ export default function Main() {
             <MobileNav />
             <Home />
             <Services />
+            <Experience />
         </div>
     </>
   )

@@ -1,0 +1,21 @@
+.main {
+  padding: 3rem 5rem;
+  background: #f8f8f1;
+  color: rgb(51, 50, 50);
+}
+
+.main h1 {
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    padding: 2rem 1rem
+  }
+
+  .main h1 {
+    display: none;
+  }
+}
