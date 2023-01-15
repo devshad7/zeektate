@@ -13,7 +13,7 @@ const Contact = () => {
           </h1>
           <h2>
             Start by{" "}
-            <a href="mailto:abc@gmail.com" target="_blank">
+            <a href="mailto:abc@gmail.com" target="_blank" rel="noreferrer">
               saying hi
             </a>
           </h2>
