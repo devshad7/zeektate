@@ -8,7 +8,7 @@ const Services = () => {
         <div className={style.leftSide}>
           <div className={style.mainDiv}>
             <div className={style.icon} style={{ background: "#00746e" }}>
-                <img src="./assets/desktop.svg" alt="" />
+              <img src="./assets/desktop.svg" alt="" />
             </div>
             <div className={style.title}>
               <h2>Website Design</h2>
@@ -18,7 +18,7 @@ const Services = () => {
 
           <div className={style.mainDiv}>
             <div className={style.icon} style={{ background: "#efcc3a" }}>
-                <img src="./assets/mobile-screen.svg" alt="" />
+              <img src="./assets/mobile-screen.svg" alt="" />
             </div>
             <div className={style.title}>
               <h2>Mobile App Design</h2>
@@ -28,7 +28,7 @@ const Services = () => {
 
           <div className={style.mainDiv}>
             <div className={style.icon} style={{ background: "#ff5027" }}>
-                <img src="./assets/code-branch.svg" alt="" />
+              <img src="./assets/code-branch.svg" alt="" />
             </div>
             <div className={style.title}>
               <h2>Identity Design</h2>
@@ -40,13 +40,16 @@ const Services = () => {
         <div className={style.rightSide}>
           <h1>What do I help?</h1>
           <p>
-            I will help you with finging a solution and solve<br />your problems. We
-            use process design to create digital<br />products. Besides that also
-            help their business.
+            I will help you with finging a solution and solve
+            <br />
+            your problems. We use process design to create digital
+            <br />
+            products. Besides that also help their business.
           </p>
           <p>
-            We use process design to create digital products.<br />Besides that aslo
-            help their business.
+            We use process design to create digital products.
+            <br />
+            Besides that aslo help their business.
           </p>
           <div className={style.client}>
             <div className={style.comp}>

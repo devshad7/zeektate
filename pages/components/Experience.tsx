@@ -28,10 +28,14 @@ const Experience = () => {
           <div className={style.main}>
             <h1>My Work Experience</h1>
             <div className={style.timeline}>
-              <Timeline sx={{ marginLeft: {
-                xs: '0rem',
-                sm: '0rem'
-              } }}>
+              <Timeline
+                sx={{
+                  marginLeft: {
+                    xs: "0rem",
+                    sm: "0rem",
+                  },
+                }}
+              >
                 <TimelineItem>
                   <TimelineOppositeContent
                     sx={{
