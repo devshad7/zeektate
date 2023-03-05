@@ -145,3 +145,74 @@
     font-weight: 500;
   }
 }
+
+@media screen and (min-width: 1400px) {
+  .main {
+    width: 1370px;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .main {
+    width: 1570px;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 1900px) {
+  .main {
+    width: 1870px;
+    padding: 5rem 0rem;
+    margin: auto;
+  }
+
+  .main .leftSide {
+    gap: 5rem;
+  }
+  
+  .main .leftSide .mainDiv {
+    gap: 1.5rem;
+  }
+  
+  .main .leftSide .icon {
+    height: 80px;
+    width: 80px;
+  }
+
+  .main .leftSide .mainDiv .title h2 {
+    font-size: 1.8rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .main .leftSide .mainDiv .title span {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  
+  .main .leftSide .icon img {
+    height: 2rem;
+  }
+  
+  .main .rightSide {
+    margin-left: 30rem;
+  }
+  
+  .main .rightSide h1 {
+    font-size: 5rem;
+  }
+  
+  .main .rightSide p {
+    line-height: 1.5;
+    font-size: 2rem;
+    padding: 1.5rem 0rem;
+  }
+  
+  .main .rightSide .client {
+    display: flex;
+    gap: 3rem;
+  }
+  
+  .main .rightSide .client h2 {
+    font-size: 4rem;
+  }
+}

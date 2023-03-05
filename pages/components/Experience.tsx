@@ -23,158 +23,162 @@ const Responsive = styled("div")(({ theme }) => ({
 const Experience = () => {
   return (
     <>
-      <ThemeProvider theme={theme}>
-        <Responsive>
-          <div className={style.main}>
-            <h1>My Work Experience</h1>
-            <div className={style.timeline}>
-              <Timeline
-                sx={{
-                  marginLeft: {
-                    xs: "0rem",
-                    sm: "0rem",
-                  },
-                }}
-              >
-                <TimelineItem>
-                  <TimelineOppositeContent
+      <div className={style.mainContainer}>
+        <div className={style.container}>
+          <ThemeProvider theme={theme}>
+            <Responsive>
+              <div className={style.main}>
+                <h1>My Work Experience</h1>
+                <div className={style.timeline}>
+                  <Timeline
                     sx={{
-                      position: "relative",
-                      right: "3rem",
-                      display: {
-                        xs: "none",
-                        sm: "block",
+                      marginLeft: {
+                        xs: "0rem",
+                        sm: "0rem",
                       },
                     }}
                   >
-                    <Typography
-                      variant="h6"
-                      sx={{ fontWeight: "600" }}
-                      component="span"
-                    >
-                      Self-Employed, Brisbane
-                    </Typography>
-                    <Typography>Sep 2016 - Aug 2020</Typography>
-                  </TimelineOppositeContent>
-                  <TimelineSeparator>
-                    <TimelineDot variant="outlined" color="success" />
-                    <TimelineConnector />
-                  </TimelineSeparator>
-                  <TimelineContent>
-                    <Typography
-                      variant="h5"
-                      sx={{ fontWeight: "600" }}
-                      component="span"
-                    >
-                      Visual Designer
-                    </Typography>
-                    <Typography
-                      sx={{
-                        lineHeight: "1.5",
-                        marginTop: "0.5rem",
-                        width: "80%",
-                      }}
-                    >
-                      A visual designs for a varity of platforms, which may
-                      include internet and internet sites, games, movies, and
-                      wearables. In short they create the concepts.
-                    </Typography>
-                  </TimelineContent>
-                </TimelineItem>
-                <TimelineItem>
-                  <TimelineOppositeContent
-                    sx={{
-                      position: "relative",
-                      right: "3rem",
-                      display: {
-                        xs: "none",
-                        sm: "block",
-                      },
-                    }}
-                  >
-                    <Typography
-                      variant="h6"
-                      sx={{ fontWeight: "600" }}
-                      component="span"
-                    >
-                      Self-Employed, Brisbane
-                    </Typography>
-                    <Typography>Sep 2016 - Aug 2020</Typography>
-                  </TimelineOppositeContent>
-                  <TimelineSeparator>
-                    <TimelineDot variant="outlined" color="warning" />
-                    <TimelineConnector />
-                  </TimelineSeparator>
-                  <TimelineContent>
-                    <Typography
-                      variant="h5"
-                      sx={{ fontWeight: "600" }}
-                      component="span"
-                    >
-                      Visual Designer
-                    </Typography>
-                    <Typography
-                      sx={{
-                        lineHeight: "1.5",
-                        marginTop: "0.5rem",
-                        width: "80%",
-                      }}
-                    >
-                      A visual designs for a varity of platforms, which may
-                      include internet and internet sites, games, movies, and
-                      wearables. In short they create the concepts.
-                    </Typography>
-                  </TimelineContent>
-                </TimelineItem>
-                <TimelineItem>
-                  <TimelineOppositeContent
-                    sx={{
-                      position: "relative",
-                      right: "3rem",
-                      display: {
-                        xs: "none",
-                        sm: "block",
-                      },
-                    }}
-                  >
-                    <Typography
-                      variant="h6"
-                      sx={{ fontWeight: "600" }}
-                      component="span"
-                    >
-                      Self-Employed, Brisbane
-                    </Typography>
-                    <Typography>Sep 2016 - Aug 2020</Typography>
-                  </TimelineOppositeContent>
-                  <TimelineSeparator>
-                    <TimelineDot variant="outlined" color="error" />
-                  </TimelineSeparator>
-                  <TimelineContent>
-                    <Typography
-                      variant="h5"
-                      sx={{ fontWeight: "600" }}
-                      component="span"
-                    >
-                      Visual Designer
-                    </Typography>
-                    <Typography
-                      sx={{
-                        lineHeight: "1.5",
-                        marginTop: "0.5rem",
-                        width: "80%",
-                      }}
-                    >
-                      A visual designs for a varity of platforms, which may
-                      include internet and internet sites, games, movies, and
-                      wearables. In short they create the concepts.
-                    </Typography>
-                  </TimelineContent>
-                </TimelineItem>
-              </Timeline>
-            </div>
-          </div>
-        </Responsive>
-      </ThemeProvider>
+                    <TimelineItem>
+                      <TimelineOppositeContent
+                        sx={{
+                          position: "relative",
+                          right: "3rem",
+                          display: {
+                            xs: "none",
+                            sm: "block",
+                          },
+                        }}
+                      >
+                        <Typography
+                          variant="h6"
+                          sx={{ fontWeight: "600" }}
+                          component="span"
+                        >
+                          Self-Employed, Brisbane
+                        </Typography>
+                        <Typography>Sep 2016 - Aug 2020</Typography>
+                      </TimelineOppositeContent>
+                      <TimelineSeparator>
+                        <TimelineDot variant="outlined" color="success" />
+                        <TimelineConnector />
+                      </TimelineSeparator>
+                      <TimelineContent>
+                        <Typography
+                          variant="h5"
+                          sx={{ fontWeight: "600" }}
+                          component="span"
+                        >
+                          Visual Designer
+                        </Typography>
+                        <Typography
+                          sx={{
+                            lineHeight: "1.5",
+                            marginTop: "0.5rem",
+                            width: "80%",
+                          }}
+                        >
+                          A visual designs for a varity of platforms, which may
+                          include internet and internet sites, games, movies,
+                          and wearables. In short they create the concepts.
+                        </Typography>
+                      </TimelineContent>
+                    </TimelineItem>
+                    <TimelineItem>
+                      <TimelineOppositeContent
+                        sx={{
+                          position: "relative",
+                          right: "3rem",
+                          display: {
+                            xs: "none",
+                            sm: "block",
+                          },
+                        }}
+                      >
+                        <Typography
+                          variant="h6"
+                          sx={{ fontWeight: "600" }}
+                          component="span"
+                        >
+                          Self-Employed, Brisbane
+                        </Typography>
+                        <Typography>Sep 2016 - Aug 2020</Typography>
+                      </TimelineOppositeContent>
+                      <TimelineSeparator>
+                        <TimelineDot variant="outlined" color="warning" />
+                        <TimelineConnector />
+                      </TimelineSeparator>
+                      <TimelineContent>
+                        <Typography
+                          variant="h5"
+                          sx={{ fontWeight: "600" }}
+                          component="span"
+                        >
+                          Visual Designer
+                        </Typography>
+                        <Typography
+                          sx={{
+                            lineHeight: "1.5",
+                            marginTop: "0.5rem",
+                            width: "80%",
+                          }}
+                        >
+                          A visual designs for a varity of platforms, which may
+                          include internet and internet sites, games, movies,
+                          and wearables. In short they create the concepts.
+                        </Typography>
+                      </TimelineContent>
+                    </TimelineItem>
+                    <TimelineItem>
+                      <TimelineOppositeContent
+                        sx={{
+                          position: "relative",
+                          right: "3rem",
+                          display: {
+                            xs: "none",
+                            sm: "block",
+                          },
+                        }}
+                      >
+                        <Typography
+                          variant="h6"
+                          sx={{ fontWeight: "600" }}
+                          component="span"
+                        >
+                          Self-Employed, Brisbane
+                        </Typography>
+                        <Typography>Sep 2016 - Aug 2020</Typography>
+                      </TimelineOppositeContent>
+                      <TimelineSeparator>
+                        <TimelineDot variant="outlined" color="error" />
+                      </TimelineSeparator>
+                      <TimelineContent>
+                        <Typography
+                          variant="h5"
+                          sx={{ fontWeight: "600" }}
+                          component="span"
+                        >
+                          Visual Designer
+                        </Typography>
+                        <Typography
+                          sx={{
+                            lineHeight: "1.5",
+                            marginTop: "0.5rem",
+                            width: "80%",
+                          }}
+                        >
+                          A visual designs for a varity of platforms, which may
+                          include internet and internet sites, games, movies,
+                          and wearables. In short they create the concepts.
+                        </Typography>
+                      </TimelineContent>
+                    </TimelineItem>
+                  </Timeline>
+                </div>
+              </div>
+            </Responsive>
+          </ThemeProvider>
+        </div>
+      </div>
     </>
   );
 };

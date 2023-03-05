@@ -1,8 +1,11 @@
+.container {
+  background: #f8f8f1;
+}
+
 .main {
   display: flex;
   padding: 1rem 5rem;
   align-items: center;
-  background: #f8f8f1;
 }
 
 .main .logo img {
@@ -61,5 +64,47 @@
 @media screen and (max-width: 1024px) {
   .main {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .main {
+    min-width: 1370px;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .main {
+    min-width: 1570px;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 1900px) {
+  .main {
+    width: 1870px;
+    padding: 2rem 0rem 1rem 0rem;
+    margin: auto;
+  }
+
+  .main .logo img {
+    height: 2rem;
+  }
+
+  .main .navLinks {
+    gap: 5rem;
+  }
+
+  .main .navLinks span {
+    font-size: 1.2rem;
+  }
+
+  .main .contact {
+    gap: 1.5rem;
+  }
+
+  .main .contact .icon {
+    height: 2.9rem;
+    width: 2.9rem;
   }
 }
